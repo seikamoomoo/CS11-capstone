@@ -17,14 +17,35 @@ Create basic user interface
 ### Product Log
 Collect tools & equipment\
 Choose software\
-Implement basic feature extracting/matching functionality
+Implement basic scanning functionality
 
 ### Member Tasks
-Casey:
+##### Casey
+- UI Research
+- Research 3D cameras
 
-Seika:
+##### Seika
+- Gather equipment
+- Write user stories
 
-Brandon:
-
+##### Brandon
+- Get AliceVision working
+- Camera analysis
 
 ### Scrum Record
+##### Accomplishments
+- Completed Milestone 2
+- Drafted system architecture
+- Decided on software
+  - Meshroom
+  - Unreal Engine
+  - Python GUI
+- Analyzed equipment 
+
+#### Concerns
+- What should be included in system architecture
+- Not having sufficient equipment in time
+- Not having a functional product for the demo
+
+#### Roadblocks
+- Need laptops to run software
