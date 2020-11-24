@@ -1,6 +1,7 @@
-
 from PyQt5 import QtCore, QtGui, QtWidgets
-import cv2, PySimpleGUI as sg
+# this does not work in vscode for me for some reason? 
+# import cv2
+from cv2 import cv2
 
 
 class Ui_Dialog(object):
@@ -39,9 +40,20 @@ class Ui_Dialog(object):
         self.pushButton_4.setText(_translate("Dialog", "Settings"))
 
     def capCamera(self, Dialog):
-        window, cap = sg.Window('camera output',[[sg.Image(filename='', key='image')],], location=(717,566)), cv2.VideoCapture(0)
-        while window(timeout=20)[0] is not None:
-            window['image'](data=cv2.imencode('.png', cap.read()[1])[1].tobytes())
+        video = cv2.VideoCapture(0 + cv2.CAP_DSHOW)
+        video.set(cv2.CAP_PROP_FRAME_WIDTH,640)
+        video.set(cv2.CAP_PROP_FRAME_HEIGHT,480)
+
+        while True:
+            check, frame = video.read()
+            cv2.imshow('Video window', frame)
+
+            # press 'q' on keyboard to exit
+            if cv2.waitKey(1) & 0xFF == ord('q'):
+                break
+
+        video.release()
+        cv2.destroyAllWindows()
 
     def exitButton(self, Dialog):
         exit() 
