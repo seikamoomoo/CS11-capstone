@@ -203,3 +203,102 @@ We spent much of this sprint compiling research and gathering equipment. We comp
 Although we had a slow start, we made significant progress as soon as we obtained the laptops we needed to run Meshroom. We were able to test different photogrammetry pipeline configurations and create several models. In addition, we tested DotProduct and started developing a Python GUI. Although it has yet to be decided, it seems that we are most likely going to be using Meshroom instead of DotProduct. We have not yet started incorporating Unreal Engine into our system; our current work involves developing a UI and photogrammetry pipeline that suits the goals of our project.
 
 
+
+## Sprint 4
+
+### Sprint Goal
+Create functioning app based off existing open source software AgiSoft MetaShape\
+Clean up our working user-interface using qml / pyqt  start researching on\
+creating an Unreal Engine plugin to import FBXs
+
+### Product Log
+Script\
+Create user-interface for our application\
+Implement basic scanning functionality\
+Unreal Research
+
+### Member Tasks
+##### Casey
+- Software analysis writeup
+- UI Research
+- Test Camera
+- Clean up the UI
+
+
+##### Seika
+- Software analysis writeup
+- Work on AgiSoft script
+- Help implement AgiSoft Script
+
+##### Brandon
+- Software analysis writeup
+- Test AgiSoft
+- Research Unreal Engine plugin development
+
+### Scrum Record
+##### Accomplishments
+- Completed Project Status presentation
+- Completed Updated Milestone 2
+- Completed Alpha Functionality video
+- Analyzed Software previously chosen
+
+#### Concerns
+- Not obtaining MetaShape License
+- Not having sufficient time to implement scanning functionality
+- Other time commitment to other classes overshadowing our senior project
+
+#### Roadblocks
+- MetaShape License
+
+### Sprint Review
+We spent much of this sprint attempting to validate and justify our software choices to Rafaelle who did not show up to multiple meetings week after week. We have
+ran into several issues regarding licensing with MetaShape and have requested funding from two sources : Scott Fairbanks and Mike Premi's connection with AgiSoft.
+We ghost-wrote the email Mike sent out.
+
+
+
+## Sprint 5
+
+### Sprint Goal
+Create functioning app based off existing open source software AgiSoft MetaShape\
+Clean up our working user-interface using qml / pyqt  start researching on\
+creating an Unreal Engine plugin to import FBXs
+
+### Product Log
+AgiSoft Script\
+Clean up user-interface\
+Implement basic scanning functionality\
+Unreal Research
+
+### Member Tasks
+##### Casey
+- UI Research and development
+- QML / pyqt research
+
+
+##### Seika
+- Work on AgiSoft script
+- Test Meshroom
+
+##### Brandon
+- Create a model with AgiSoft
+- Research Unreal Engine plugin development
+
+### Scrum Record
+##### Accomplishments
+- Completed Beta Functionality video
+- Completed Winter-term retrospective
+
+#### Concerns
+- Not obtaining MetaShape License
+- Not having sufficient time to implement scanning functionality
+- Not having sufficient time to implement Unreal Engine FBX compatibility
+- Other time commitment to other classes overshadowing our senior project
+
+#### Roadblocks
+- MetaShape License
+- Unreal Engine compatability
+
+### Sprint Review
+We as a team started to get very bogged down by other classes and did not have much time to commit to our project. We are still encountering the roadblock of the MetaShape license and none of our funding requests went through. We believe we might be able to get by without it but it could in the end impact our project negatively. 
+It is unclear if the Unreal Engine can be compatible with our application, there are tons of library files and great documentation for it but the amount of it is a little overwhelming.
