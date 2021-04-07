@@ -277,7 +277,7 @@ Unreal Research
 
 
 ##### Seika
-- Work on AgiSoft script
+- Work on our AgiSoft script
 - Test Meshroom
 
 ##### Brandon
@@ -290,7 +290,7 @@ Unreal Research
 - Completed Winter-term retrospective
 
 #### Concerns
-- Not obtaining MetaShape License
+- Not obtaining a MetaShape License
 - Not having sufficient time to implement scanning functionality
 - Not having sufficient time to implement Unreal Engine FBX compatibility
 - Other time commitment to other classes overshadowing our senior project
@@ -300,5 +300,5 @@ Unreal Research
 - Unreal Engine compatability
 
 ### Sprint Review
-We as a team started to get very bogged down by other classes and did not have much time to commit to our project. We are still encountering the roadblock of the MetaShape license and none of our funding requests went through. We believe we might be able to get by without it but it could in the end impact our project negatively. 
+We as a team at this time started to get very bogged down by other classes and did not have much time to commit to our project. We are still encountering the roadblock of the MetaShape license and none of our funding requests went through. We believe we might be able to get by without it but it could in the end impact our project negatively. 
 It is unclear if the Unreal Engine can be compatible with our application, there are tons of library files and great documentation for it but the amount of it is a little overwhelming.
