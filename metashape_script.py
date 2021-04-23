@@ -51,6 +51,12 @@ def build_mesh():
         print("Can't build model")
 
     try:
+        # chunk.buildUV(mapping_mode=Metashape.GenericMapping)
+        chunk.buildUV(mapping_mode=Metashape.KeepUV)
+    except RuntimeError:
+        print("Can't map UV")
+
+    try:
         # build texture using vertex colors
         # chunk.buildTexture(
         #     blending_mode=Metashape.MosaicBlending,
@@ -60,6 +66,11 @@ def build_mesh():
         #     texture_type=Metashape.Model.DiffuseMap,
         #     progress=print_progress
         # )
+        # chunk.buildTexture(
+        #     blending=Metashape.MosaicBlending,
+        #     size=4096,
+        #     progress=print_progress
+        #     )
         chunk.buildTexture(
             texture_size=4096,
             blending_mode=Metashape.MosaicBlending,
