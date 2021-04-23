@@ -11,7 +11,8 @@ def print_progress(p):
 
 def build_mesh(project_name, point_cloud, face_count):
 
-    Metashape.License().activate("TXC3V-LUVCT-E1BLK-U83UR-GP25H")
+    # activate the license with:
+    # export agisoft_LICENSE=7250@linlic.engr.oregonstate.edus
 
     project = "./" + project_name + ".psx"
     input = point_cloud

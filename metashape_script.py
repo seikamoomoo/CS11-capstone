@@ -1,7 +1,11 @@
 # This script takes two arguments: a file path and a face count
 # Face count: HighFaceCount, MediumFaceCount, or LowFaceCount
 
+# run on MAC: /Applications/MetashapePro.app/Contents/MacOS/MetashapePro -r\
+# metashape_script.py <project name> <point cloud> 1000
+
 import sys
+import os
 import Metashape
 
 
@@ -11,7 +15,11 @@ def print_progress(p):
 
 def build_mesh():
 
-    Metashape.License().activate("TXC3V-LUVCT-E1BLK-U83UR-GP25H")
+    # activate the license with:
+    # export agisoft_LICENSE=7250@linlic.engr.oregonstate.edu
+
+    # Metashape.License().activate("TXC3V-LUVCT-E1BLK-U83UR-GP25H")os.environ.get('API_PASSWORD')
+    # Metashape.License().activate(os.environ.get('agisoft_LICENSE'))
 
     project = "./" + sys.argv[1] + ".psx"
     input = sys.argv[2]
