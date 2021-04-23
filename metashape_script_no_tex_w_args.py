@@ -2,6 +2,7 @@
 # Face count: HighFaceCount, MediumFaceCount, or LowFaceCount
 
 import sys
+import os
 import Metashape
 
 
@@ -12,7 +13,9 @@ def print_progress(p):
 def build_mesh(project_name, point_cloud, face_count):
 
     # activate the license with:
-    # export agisoft_LICENSE=7250@linlic.engr.oregonstate.edus
+    # export agisoft_LICENSE=7250@linlic.engr.oregonstate.edu
+
+    os.environ["agisoft_LICENSE"] = "7250@linlic.engr.oregonstate.edu"
 
     project = "./" + project_name + ".psx"
     input = point_cloud

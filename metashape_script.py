@@ -17,6 +17,7 @@ def build_mesh():
 
     # activate the license with:
     # export agisoft_LICENSE=7250@linlic.engr.oregonstate.edu
+    os.environ["agisoft_LICENSE"] = "7250@linlic.engr.oregonstate.edu"
 
     # Metashape.License().activate("TXC3V-LUVCT-E1BLK-U83UR-GP25H")os.environ.get('API_PASSWORD')
     # Metashape.License().activate(os.environ.get('agisoft_LICENSE'))

@@ -2,6 +2,7 @@
 # Face count: HighFaceCount, MediumFaceCount, or LowFaceCount
 
 import sys
+import os
 import Metashape
 
 
@@ -13,6 +14,8 @@ def build_mesh():
 
     # activate the license with:
     # export agisoft_LICENSE=7250@linlic.engr.oregonstate.edu
+
+    os.environ["agisoft_LICENSE"] = "7250@linlic.engr.oregonstate.edu"
 
     project = "./" + sys.argv[1] + ".psx"
     input = sys.argv[2]
