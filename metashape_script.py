@@ -14,7 +14,7 @@ def print_progress(p):
         print('Task progress: {:.2f}%'.format(p))
 
 
-def build_mesh():
+def build_mesh(project_name, point_cloud, face_count):
 
     # activate the license with:
     # export agisoft_LICENSE=7250@linlic.engr.oregonstate.edu
@@ -23,10 +23,10 @@ def build_mesh():
     # Metashape.License().activate("TXC3V-LUVCT-E1BLK-U83UR-GP25H")os.environ.get('API_PASSWORD')
     # Metashape.License().activate(os.environ.get('agisoft_LICENSE'))
 
-    project = "./" + sys.argv[1] + ".psx"
-    input = sys.argv[2]
-    faces = sys.argv[3]
-    output = "./" + sys.argv[1] + "model.fbx"
+    project = "./" + project_name + ".psx"
+    input = point_cloud
+    faces = face_count
+    output = "./" + project_name + "model.fbx"
 
     doc = Metashape.Document()
     doc.save(path=project)
@@ -110,4 +110,4 @@ def build_mesh():
 
 
 if __name__ == "__main__":
-    build_mesh()
+    build_mesh(sys.argv[1], sys.argv[2], sys.argv[3])
