@@ -310,7 +310,8 @@ It is unclear if the Unreal Engine can be compatible with our application, there
 ### Sprint Goal
 Create functioning app based off existing open source software AgiSoft MetaShape\
 Clean up our working user-interface using qml / pyqt, connect our now functional Unreal Engine Plugin
-to our UI in progress.
+to our UI in progress. We must scan our own classroom environment to use as a baseline and example.
+During this scan we should record the process as it would be a good way to demonstrate functionality.
 
 ### Product Log
 AgiSoft Script\
