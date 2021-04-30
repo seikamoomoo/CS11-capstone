@@ -10,7 +10,8 @@ import Metashape
 
 
 def print_progress(p):
-    print('Task progress: {:.2f}%'.format(p))
+    if (p % 5 == 0):
+        print('Task progress: {:.2f}%'.format(p))
 
 
 def build_mesh():
@@ -49,9 +50,10 @@ def build_mesh():
         # build model using point cloud
         chunk.buildModel(
             surface_type=Metashape.Arbitrary,
-            interpolation=Metashape.EnabledInterpolation,
+            interpolation=Metashape.Extrapolated,
             face_count_custom=faces,
             source_data=Metashape.DenseCloudData,
+            keep_depth=True,
             vertex_colors=True,
             vertex_confidence=True,
             progress=print_progress
@@ -60,12 +62,12 @@ def build_mesh():
         print("Can't build model")
 
     try:
-        # chunk.buildUV(mapping_mode=Metashape.GenericMapping)
-        chunk.buildUV(mapping_mode=Metashape.KeepUV)
-    except RuntimeError:
-        print("Can't map UV")
-
-    try:
+        chunk.buildUV(progress=print_progress)
+        chunk.buildTexture(
+            source_model=chunk.model.key,
+            transfer_texture=True,
+            progress=print_progress
+            )
         # build texture using vertex colors
         # chunk.buildTexture(
         #     blending_mode=Metashape.MosaicBlending,
@@ -76,16 +78,11 @@ def build_mesh():
         #     progress=print_progress
         # )
         # chunk.buildTexture(
-        #     blending=Metashape.MosaicBlending,
-        #     size=4096,
+        #     texture_size=4096,
+        #     blending_mode=Metashape.MosaicBlending,
+        #     source_model=chunk.model.key,
         #     progress=print_progress
-        #     )
-        chunk.buildTexture(
-            texture_size=4096,
-            blending_mode=Metashape.MosaicBlending,
-            source_model=chunk.model.key,
-            progress=print_progress
-        )
+        # )
     except RuntimeError:
         print("Can't build texture")
 
