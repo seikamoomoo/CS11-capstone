@@ -255,7 +255,7 @@ We spent much of this sprint attempting to validate and justify our software cho
 ran into several issues regarding licensing with MetaShape and have requested funding from two sources : Scott Fairbanks and Mike Premi's connection with AgiSoft.
 We ghost-wrote the email Mike sent out.
 
-
+# Spring Term Sprints
 
 ## Sprint 5
 
