@@ -64,7 +64,7 @@ Although we had a slow start, we made significant progress as soon as we obtaine
 ## Sprint 1
 
 ### Sprint Goal
-Begin testing the second half of the meshing pipeline, 
+Begin testing the second half of the meshing pipeline,
 and looking into developing a user interface
 
 ### Product Log
@@ -203,3 +203,157 @@ We spent much of this sprint compiling research and gathering equipment. We comp
 Although we had a slow start, we made significant progress as soon as we obtained the laptops we needed to run Meshroom. We were able to test different photogrammetry pipeline configurations and create several models. In addition, we tested DotProduct and started developing a Python GUI. Although it has yet to be decided, it seems that we are most likely going to be using Meshroom instead of DotProduct. We have not yet started incorporating Unreal Engine into our system; our current work involves developing a UI and photogrammetry pipeline that suits the goals of our project.
 
 
+
+## Sprint 4
+
+### Sprint Goal
+Create functioning app based off existing open source software AgiSoft MetaShape\
+Clean up our working user-interface using qml / pyqt  start researching on\
+creating an Unreal Engine plugin to import FBXs
+
+### Product Log
+Script\
+Create user-interface for our application\
+Implement basic scanning functionality\
+Unreal Research
+
+### Member Tasks
+##### Casey
+- Software analysis writeup
+- UI Research
+- Test Camera
+- Clean up the UI
+
+
+##### Seika
+- Software analysis writeup
+- Work on AgiSoft script
+- Help implement AgiSoft Script
+
+##### Brandon
+- Software analysis writeup
+- Test AgiSoft
+- Research Unreal Engine plugin development
+
+### Scrum Record
+##### Accomplishments
+- Completed Project Status presentation
+- Completed Updated Milestone 2
+- Completed Alpha Functionality video
+- Analyzed Software previously chosen
+
+#### Concerns
+- Not obtaining MetaShape License
+- Not having sufficient time to implement scanning functionality
+- Other time commitment to other classes overshadowing our senior project
+
+#### Roadblocks
+- MetaShape License
+
+### Sprint Review
+We spent much of this sprint attempting to validate and justify our software choices to Rafaelle who did not show up to multiple meetings week after week. We have
+ran into several issues regarding licensing with MetaShape and have requested funding from two sources : Scott Fairbanks and Mike Premi's connection with AgiSoft.
+We ghost-wrote the email Mike sent out.
+
+# Spring Term Sprints
+
+## Sprint 5
+
+### Sprint Goal
+Create functioning app based off existing open source software AgiSoft MetaShape\
+Clean up our working user-interface using qml / pyqt  start researching on\
+creating an Unreal Engine plugin to import FBXs
+
+### Product Log
+AgiSoft Script\
+Clean up user-interface\
+Implement basic scanning functionality\
+Unreal Research and plugin development
+
+### Member Tasks
+##### Casey
+- UI Research and development
+- QML / pyqt research
+
+
+##### Seika
+- Work on our AgiSoft script
+- Test Meshroom
+
+##### Brandon
+- Create a model with AgiSoft
+- Research Unreal Engine plugin development
+
+### Scrum Record
+##### Accomplishments
+- Completed Beta Functionality video
+- Completed Winter-term retrospective
+
+#### Concerns
+- Not obtaining a MetaShape License
+- Not having sufficient time to implement scanning functionality
+- Not having sufficient time to implement Unreal Engine FBX compatibility
+- Other time commitment to other classes overshadowing our senior project
+
+#### Roadblocks
+- MetaShape License
+- Unreal Engine compatability
+
+### Sprint Review
+We as a team at this time started to get very bogged down by other classes and did not have much time to commit to our project. We are still encountering the roadblock of the MetaShape license and none of our funding requests went through. We believe we might be able to get by without it but it could in the end impact our project negatively.
+It is unclear if the Unreal Engine can be compatible with our application, there are tons of library files and great documentation for it but the amount of it is a little overwhelming.
+
+
+
+## Sprint 6
+
+### Sprint Goal
+Create functioning app based off existing open source software AgiSoft MetaShape\
+Clean up our working user-interface using qml / pyqt, connect our now functional Unreal Engine Plugin
+to our UI in progress. We must scan our own classroom environment to use as a baseline and example.
+During this scan we should record the process as it would be a good way to demonstrate functionality.
+
+### Product Log
+AgiSoft Script\
+Clean up user-interface\
+Implement basic scanning functionality\
+Unreal executable integration with UI\
+Unreal model and world save integration\
+
+### Member Tasks
+##### Casey
+- UI Research and development
+- MetaShape script development
+- Preparing materials for the project evaluation presentation
+
+##### Seika
+- Taking a little bit of a break from the MetaShape script
+- Look into improving the UI
+- Preparing materials for the project evaluation presentation
+
+##### Brandon
+- Unreal Engine development
+- Save functionality with the Unreal Engine demo
+- Improvements to UI, work on integrating UE with UI
+- Preparing materials for the project evaluation presentation
+
+### Scrum Record
+##### Accomplishments
+- Completed Unreal Engine FBX importer
+- Got funding for our MetaShape pro-license
+- MetaShape script makes meshes
+- Weekly team report writings (Each week there is on average one to two pages that are written to update our project managers)
+
+#### Concerns
+- Not having sufficient time to implement the functional UE demo executable with the UI
+- Getting the MetaShape script to produce textures ontop of generated meshes
+- Other time commitments to other classes overshadowing our senior project
+
+#### Roadblocks
+- None at the moment, there is lots of work to be done but it can be done in a reasonable amount of time.
+
+### Sprint Review
+This sprint has gone well. There has been progress with the Unreal Engine side of things as the plugin and executable demo came together. We recieved funding for our MetaShape script and can now access classes that were locked behind\
+a pay wall. If a user were to use this, they would simply 'borrow' the license and once they are done it is automatically set to an 'unborrowed' state allowing others to use it. We are still having difficulties with producing textures\
+with the MetaShape script as it wants us to setup a camera system to go along with the pointcloud we are passing into it via Python. Using the application normally we would not have to set up a camera which makes this issue a little more\
+perplexing. We would definitely like to automate the meshing and texturing process to help simplify the pipeline for our users as much as possible.
