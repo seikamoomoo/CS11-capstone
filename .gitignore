@@ -1,0 +1,6 @@
+.DS_Store
+**/venv/
+/archive
+__pycache__/
+*$py.class
+*.so
