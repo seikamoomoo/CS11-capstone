@@ -5,7 +5,9 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 
 SCRIPT_NAME = "metashape_no_tex.py"
-METASHAPE_PATH = "/Applications/MetashapePro.app/Contents/MacOS/MetashapePro"
+METASHAPE_PATH = sys.argv[1]
+#METASHAPE_PATH = "/Applications/MetashapePro.app/Contents/MacOS/MetashapePro"
+
 
 class App(QWidget):
 
