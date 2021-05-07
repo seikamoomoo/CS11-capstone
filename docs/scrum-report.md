@@ -64,7 +64,7 @@ Although we had a slow start, we made significant progress as soon as we obtaine
 ## Sprint 1
 
 ### Sprint Goal
-Begin testing the second half of the meshing pipeline,
+Begin testing the second half of the meshing pipeline, 
 and looking into developing a user interface
 
 ### Product Log
@@ -300,7 +300,7 @@ Unreal Research and plugin development
 - Unreal Engine compatability
 
 ### Sprint Review
-We as a team at this time started to get very bogged down by other classes and did not have much time to commit to our project. We are still encountering the roadblock of the MetaShape license and none of our funding requests went through. We believe we might be able to get by without it but it could in the end impact our project negatively.
+We as a team at this time started to get very bogged down by other classes and did not have much time to commit to our project. We are still encountering the roadblock of the MetaShape license and none of our funding requests went through. We believe we might be able to get by without it but it could in the end impact our project negatively. 
 It is unclear if the Unreal Engine can be compatible with our application, there are tons of library files and great documentation for it but the amount of it is a little overwhelming.
 
 
@@ -324,18 +324,18 @@ Unreal model and world save integration\
 ##### Casey
 - UI Research and development
 - MetaShape script development
-- Preparing materials for the project evaluation presentation
+- Preparing materials for the project evaluation presentation 
 
 ##### Seika
 - Taking a little bit of a break from the MetaShape script
 - Look into improving the UI
-- Preparing materials for the project evaluation presentation
+- Preparing materials for the project evaluation presentation 
 
 ##### Brandon
 - Unreal Engine development
 - Save functionality with the Unreal Engine demo
 - Improvements to UI, work on integrating UE with UI
-- Preparing materials for the project evaluation presentation
+- Preparing materials for the project evaluation presentation 
 
 ### Scrum Record
 ##### Accomplishments
