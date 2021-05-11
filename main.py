@@ -1,4 +1,6 @@
 import sys
+import os
+import subprocess
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
@@ -60,8 +62,14 @@ class App(QWidget):
         self.button = QPushButton('Begin Scanning!', self)
         layout.addWidget(self.button)
 
+
+        self.button1 = QPushButton('Launch Unreal Engine Demo', self)
+        layout.addWidget(self.button1)
+        
+
         # connect button to function on_click
         self.button.clicked.connect(self.on_click)
+        self.button1.clicked.connect(self.launchDemo)
 
         self.files.clicked.connect(self.getfile)
 
@@ -78,6 +86,11 @@ class App(QWidget):
     def getfile(self):
         fname = QFileDialog.getOpenFileName()
         self.filename.setText(str(fname[0]))
+
+    def launchDemo(self):
+        command = r"FBXImportDemo.exe"
+        os.system(command)
+    
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
