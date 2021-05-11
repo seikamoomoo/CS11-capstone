@@ -88,7 +88,7 @@ class App(QWidget):
         self.filename.setText(str(fname[0]))
 
     def launchDemo(self):
-        command = r"C:\Users\15032\Documents\GitHub\CS11-capstone\UnrealDemo\FBXImportDemo.exe"
+        command = r"C:\Users\15032\Desktop\FBXimportExe\WindowsNoEditor\FBXImportDemo.exe"
         os.system(command)
     
 
