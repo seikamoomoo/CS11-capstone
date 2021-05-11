@@ -305,7 +305,7 @@ It is unclear if the Unreal Engine can be compatible with our application, there
 
 
 
-## Sprint 6
+## Sprint 6 Post-integration Testing and Refinement
 
 ### Sprint Goal
 Create functioning app based off existing open source software AgiSoft MetaShape\
@@ -357,3 +357,62 @@ This sprint has gone well. There has been progress with the Unreal Engine side o
 a pay wall. If a user were to use this, they would simply 'borrow' the license and once they are done it is automatically set to an 'unborrowed' state allowing others to use it. We are still having difficulties with producing textures\
 with the MetaShape script as it wants us to setup a camera system to go along with the pointcloud we are passing into it via Python. Using the application normally we would not have to set up a camera which makes this issue a little more\
 perplexing. We would definitely like to automate the meshing and texturing process to help simplify the pipeline for our users as much as possible.
+
+
+
+## Sprint 7: Preparing for Expo and Adding Polish
+
+### Sprint Goal
+Clean up our working user-interface using qml / pyqt, connect our now functional Unreal Engine Plugin
+to our UI in progress. Wrap up materials for our project evaluation presentation coming on 5 / 14 / 2021,
+prepare materials and online portal for our senior project showcase expo. This also includes practicing for the expo.
+
+### Product Log
+Project evaluation presentation slideshow\
+Scanning process in person demo video\
+Exp showcase landing page\
+Project evaluation presentation agenda sent out\ 
+AgiSoft Script\
+Clean up user-interface\
+Unreal executable integration with UI\
+Unreal model and world save integration\
+
+### Member Tasks
+##### Casey
+- UI development
+- MetaShape script development
+- Preparing materials for the project evaluation presentation 
+
+##### Seika
+- Look into improving the UI
+- Preparing materials for the project evaluation presentation 
+
+##### Brandon
+- Needs to send out project evaluation presentation agenda to other team leader contacts
+- Improvements to UI, work on integrating UE with UI
+- Preparing the landing page for the coming expo
+- Preparing materials for the project evaluation presentation 
+
+### Scrum Record
+##### Accomplishments
+- We scanned a large classroom environment
+- Created an in person scanning demo video that is short and concise
+- Completed landing page for the expo
+- Completed Project evaluation presentation slides
+- MetaShape script makes meshes
+- Weekly team report writings (Each week there is on average one to two pages that are written to update our project managers)
+
+#### Concerns
+- Not having sufficient time to implement the functional UE demo executable with the UI
+- Getting the MetaShape script to produce textures ontop of generated meshes
+- Other time commitments to other classes overshadowing our senior project
+
+#### Roadblocks
+- Weird Python errors with Windows regarding our MetaShape script and UI.
+
+### Sprint Review
+Our team has been quite busy this sprint as other classes are beginning to pile ontop of us. However, we are still getting good work done!
+We got our project landing page and our project evaluation presentation both done very quickly. We started putting the materials together 
+quite a bit sooner than before. We created an in person scanning demo video that is short and concise and finally scanned a large classroom
+to demonstrate our pipeline.
+
