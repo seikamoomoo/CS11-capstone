@@ -61,27 +61,14 @@ def build_mesh(project_name, point_cloud, face_count):
         print("Can't build model")
 
     try:
-        chunk.buildUV(progress=print_progress)
+        chunk.buildUV()
         chunk.buildTexture(
-            source_model=chunk.model.key,
-            transfer_texture=True,
-            progress=print_progress
+            blending_mode=Metashape.BlendingMode.MosaicBlending,
+            texture_size=4096,
+            texture_type=Metashape.Model.TextureType.DiffuseMap,
+            source_model=chunk.model,
+            transfer_texture=False
             )
-        # build texture using vertex colors
-        # chunk.buildTexture(
-        #     blending_mode=Metashape.MosaicBlending,
-        #     texture_size=4096,
-        #     fill_holes=True,
-        #     ghosting_filter=True,
-        #     texture_type=Metashape.Model.DiffuseMap,
-        #     progress=print_progress
-        # )
-        # chunk.buildTexture(
-        #     texture_size=4096,
-        #     blending_mode=Metashape.MosaicBlending,
-        #     source_model=chunk.model.key,
-        #     progress=print_progress
-        # )
     except RuntimeError:
         print("Can't build texture")
 
