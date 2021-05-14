@@ -370,7 +370,7 @@ prepare materials and online portal for our senior project showcase expo. This a
 ### Product Log
 Project evaluation presentation slideshow\
 Scanning process in person demo video\
-Exp showcase landing page\
+Expo showcase landing page\
 Project evaluation presentation agenda sent out\ 
 AgiSoft Script\
 Clean up user-interface\
@@ -415,4 +415,39 @@ Our team has been quite busy this sprint as other classes are beginning to pile 
 We got our project landing page and our project evaluation presentation both done very quickly. We started putting the materials together 
 quite a bit sooner than before. We created an in person scanning demo video that is short and concise and finally scanned a large classroom
 to demonstrate our pipeline.
+
+
+## Sprint 8: Project Closeout and Handoff
+
+### Sprint Goal
+Clean up our working user-interface using qml / pyqt, connect our now functional Unreal Engine Plugin
+to our UI in progress. Wrap up materials for our project evaluation presentation coming on 5 / 14 / 2021,
+prepare materials and online portal for our senior project showcase expo. This also includes practicing for the expo.
+We want to get the UI to a point where it looks more visually appealing.
+
+
+### Product Log
+Clean up user-interface\
+Unreal model and world save integration\
+
+
+### Scrum Record
+##### Accomplishments
+- We sent out the project evaluation presentation agenda
+- We got the MetaShape script operational
+- We gave the UI the capability of launching the Unreal Demo executable
+- Completed Project evaluation presentation slides
+
+#### Concerns
+- None at this moment.
+
+#### Roadblocks
+- None at this moment.
+
+### Sprint Review
+Our team has accomplished quite a lot in the past few weeks. We have our UI in a state where it can launch the Unreal Engine Demo,
+we have gotten our MetaShape script correctly making meshes and textures now! This means that the user can simply install MetaShape and
+simply use our script that our UI invokes and have that be that. We have been chewing away at getting our materials for our presentation
+done and set, however we will be ready by the time the presentation occurs. We are ready to continue development as needed for the expo.
+Our project is in a state we are quite happy with.
 
