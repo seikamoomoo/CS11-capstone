@@ -10,9 +10,14 @@ Innovate 3D scanning of large spaces to create virtual walkthroughs and distance
 ## Software Requirements
 * Intel RealSense SDK 2.0 – Intel RealSense Depth and Tracking cameras :
   * https://www.intelrealsense.com/sdk-2/
+  
 * Download and install DotProduct 3d as this is how we will be scanning environments.
 DotProduct - Handheld 3D Scanning (dotproduct3d.com) (you will have to sign up for a free-trial).
   * https://www.dotproduct3d.com/
+
+* Download the Unreal Engine demo project :
+  * This is how we get FBX models into the unreal engine 
+    https://drive.google.com/drive/folders/1SnMityGyT90JAydc30lh8KEmoFF-DjnF?usp=sharing
 
 ## Generate Mesh
 
