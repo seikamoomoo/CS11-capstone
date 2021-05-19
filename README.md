@@ -1,6 +1,19 @@
 # CS11-capstone
 Innovate 3D scanning of large spaces to create virtual walkthroughs and distance learning
 
+## Hardware Requirements
+* Intel Realsense D455 or D415 depth camera 
+* USB 3.0 cable
+* A laptop PC
+
+
+## Software Requirements
+* Intel RealSense SDK 2.0 – Intel RealSense Depth and Tracking cameras :
+  * https://www.intelrealsense.com/sdk-2/
+* Download and install DotProduct 3d as this is how we will be scanning environments.
+DotProduct - Handheld 3D Scanning (dotproduct3d.com) (you will have to sign up for a free-trial).
+  * https://www.dotproduct3d.com/
+
 ## Generate Mesh
 
 ### Setup
