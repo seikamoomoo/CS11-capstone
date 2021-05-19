@@ -4,7 +4,7 @@ Innovate 3D scanning of large spaces to create virtual walkthroughs and distance
 ## Hardware Requirements
 * Intel Realsense D455 or D415 depth camera 
 * USB 3.0 cable
-* A laptop PC
+* A laptop PC with at least 8gb RAM
 
 
 ## Software Requirements
