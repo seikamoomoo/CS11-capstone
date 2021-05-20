@@ -8,7 +8,7 @@ Innovate 3D scanning of large spaces to create virtual walkthroughs and distance
 
 
 ## Software Requirements
-* Intel RealSense SDK 2.0 – Intel RealSense Depth and Tracking cameras :
+* Intel RealSense SDK 2.0 – Intel RealSense Depth and Tracking camera manual driver installation :
   * https://www.intelrealsense.com/sdk-2/
   
 * Download and install DotProduct 3d as this is how we will be scanning environments.
