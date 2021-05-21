@@ -16,7 +16,7 @@ DotProduct - Handheld 3D Scanning (dotproduct3d.com) (you will have to sign up f
   * https://www.dotproduct3d.com/
 
 * Download the Unreal Engine demo project :
-  * This is how we get FBX models into the unreal engine 
+  * This is how we get FBX models into the Unreal Engine 
     https://drive.google.com/drive/folders/1SnMityGyT90JAydc30lh8KEmoFF-DjnF?usp=sharing
 
 ## Generate Mesh
@@ -32,3 +32,17 @@ DotProduct - Handheld 3D Scanning (dotproduct3d.com) (you will have to sign up f
 
 ### Metashape Script Only
 * run script: [path to MetashapePro] -r metashape_script.py [project name] [point cloud file path] [custom face count]
+
+###Using the Unreal Engine Demo to View FBX Models
+* Go to the Unreal Engine Demo folder that you have downloaded and double click on the following file : FBXImportDemo.exe
+* Camera controls :
+  * W - Forwards
+  * A - Left
+  * S - Backwards
+  * D - Right
+  * Hold right mouse button to move your camera in accordance to where you are pointing the mouse
+
+* Click on the green plane with the left mouse button. This will make a small yellow marker appear.
+  * Make sure you click close to your current position as the further out you click the further away the model will be. 
+* Click on the Import FBX button at the top left of the screen and search through the file manager until you find the FBX file you want to import.
+* Double click on the FBX file and wait while the demo loads your FBX file. A loading bar should appear.
