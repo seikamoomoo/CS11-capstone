@@ -33,7 +33,7 @@ DotProduct - Handheld 3D Scanning (dotproduct3d.com) (you will have to sign up f
 ### Metashape Script Only
 * run script: [path to MetashapePro] -r metashape_script.py [project name] [point cloud file path] [custom face count]
 
-###Using the Unreal Engine Demo to View FBX Models
+### Using the Unreal Engine Demo to View FBX Models
 * Go to the Unreal Engine Demo folder that you have downloaded and double click on the following file : FBXImportDemo.exe
 * Camera controls :
   * W - Forwards
